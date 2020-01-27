@@ -65,6 +65,10 @@ header {
   padding: 10px;
 }
 
+.title {
+   margin-bottom: 20px;
+}
+
 .container {
   display: flex;
   overflow-x: auto;
