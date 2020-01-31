@@ -22,9 +22,12 @@ function renderBoard() {
 
     var $headerButton = document.createElement('button');
     $headerButton.textContent = list.title;
+    var $addCardButton = document.createElement('button');
+    $addCardButton.textContent = 'Add a card...';
 
     $header.appendChild($headerButton);
     $listContainer.appendChild($header);
+    $listContainer.appendChild($addCardButton);
     $boardContainer.appendChild($listContainer);
   });
 
